@@ -1,0 +1,12 @@
+[general]
+name=postgis_expression
+description=New expressions with functions to perform PostGIS database queries using the PostGIS engine.-----   Nuevas expresiones con funciones para realizar consultas a Bases de Datos PostGIS.
+about=Adds new expressions to the expressions dialog with functions to perform PostGIS database queries using the PostGIS engine.First you must establish the connection to the database with the pg_connect option and then you can use the expressions. <b>New functions to perform calculations and queries in the QGIS expressions dialog box</b>                                                                                                                               Agrega nuevas expresiones al Dialogo de Expresiones de QGIS con funciones para realizar consultas a Base de Datos PostGIS utilizando el motor de PostGIS. Primero debe establecer la conexión con la base de datos con la opción pg_connect y luego podras utilizar las expresiones.
+version=1.0
+qgisMinimumVersion=3.4
+author=Luis Eduardo Pérez Graterol-https://www.linkedin.com/in/luisedpg/
+email=luis3176@yahoo.com
+tags=expressions, PostGIS, field calculator
+repository=https://github.com/luisCartoGeo
+icon=icons/plugin_image.jpg
+experimental=True

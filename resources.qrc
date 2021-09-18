@@ -1,0 +1,5 @@
+<RCC>
+ <qresource prefix="/plugins/postgis_expression">
+  <file>icon.png</file>
+ </qresource>
+</RCC>
