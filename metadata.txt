@@ -7,6 +7,6 @@ qgisMinimumVersion=3.4
 author=Luis Eduardo Pérez Graterol-https://www.linkedin.com/in/luisedpg/
 email=luis3176@yahoo.com
 tags=expressions, PostGIS, field calculator
-repository=https://github.com/luisCartoGeo
+repository=https://github.com/luisCartoGeo/PostGIS_Extenssion
 icon=icons/plugin_image.jpg
 experimental=True
