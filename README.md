@@ -32,6 +32,9 @@ Las expresiones que realizan consultas espaciales asumen que el campo con la geo
 </ul>
 <hr></hr>
 <h3>Funcionamiento del complemento</h3>
+<h4><b>Integridad y seguridad</b></h4>
+En esta versión del complemento, solo puede conectarse a una base de datos a la vez, si desea conectarse a otra base de datos debera establecer una nueva conexión lo que removera previas conexiones.<br/>
+Como medida de seguridad la conexión a la Base de Datos es de Solo Lectura, puede realizar consultas pero no podra modificar la Base de Datos aunque escriba las sentencias para ello.<br/>
 <h4><b>Interfaz de usuario</b></h4>
 Al activar el complemento se añaden dos botones a la barra de botones, uno para conectar a la base de datos y otro para desconectar.<br/>
 Estas herramientas también están disponibles en el menú Complemento > submenú PostGIS Expression.<br/>
@@ -39,6 +42,16 @@ Estas herramientas también están disponibles en el menú Complemento > submen�
 De igual forma si despliega el dialogo de expresiones, notara que se ha agregado la categoría PostGIS con un conjunto de expresiones.<br/>
 <img style="text-align:center" src="https://github.com/luisCartoGeo/PostGIS_Expression/blob/main/Dialog_expre_postgis.jpg" style="width:10%">
 <h4><b>Establecer conexión con la Base de Datos</b></h4>
-El primer paso para utilizar las expresiones 
+El primer paso para utilizar las expresiones es establecer conexión con la Base de Datos que desea consultar.<br/> 
+Haga clic sobre el botón Nueva conexión, aparecerá una ventana donde podrá introducir los parámetros básicos para establecer la conexión con su Base de Datos:<br/> 
+<ol>
+    <li><b>Puerto:</b> se coloca por defecto el puerto utilizado por PostgreSQL  (5432) edite este valor si lo requiere.</li>
+    <li><b>Nombre de la base de datos:</b> coloque el nombre de la base de datos PostgreSQL con la que desea realizar la instalación.</li>
+    <li><b>Usuario:</b> edite el texto y coloque el nombre del usuario.</li>
+    <li><b>Contraseña:</b> coloque la contraseña para acceder a la base de datos.</li>
+    <li><b>Servidor:</b> coloque el nombre del servidor.</li>
+</ol>
 
-Agrega nuevas expresiones al Dialogo de Expresiones de QGIS con funciones para realizar consultas a Base de Datos PostGIS utilizando el motor de PostGIS. 
+
+
+
