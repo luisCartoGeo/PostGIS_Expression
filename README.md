@@ -52,6 +52,7 @@ Haga clic sobre el botón <i>Nueva conexión</i>, aparecerá una ventana donde p
     <li><b>Servidor:</b> coloque el nombre del servidor.</li>
 </ol>
 <img style="text-align:center" src="https://github.com/luisCartoGeo/PostGIS_Expression/blob/main/DIALOGO.jpg" style="width:10%">
+Luego de introducir los parámetros requeridos para establecer la conexión pulse el botón <i>Establecer conexión</i>, la ventana mostrara un mensaje si la conexión ha sido exitosa, como se muestra en la imagen, o devolverá un mensaje de error si no puede establecerse la conexión.<br/>
 <h4><b>Expresiones</b></h4>
 Las expresiones PostGIS permiten hacer consultas alfanuméricas y espaciales, sin embargo, por el momento, el resultado que obtendrá serán valores numéricos o booleanos. Puede obtener como resultado un valor único de una consulta o una lista de valores.<br/>
 <ul>
