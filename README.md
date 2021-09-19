@@ -51,6 +51,16 @@ Haga clic sobre el botón Nueva conexión, aparecerá una ventana donde podrá i
     <li><b>Contraseña:</b> coloque la contraseña para acceder a la base de datos.</li>
     <li><b>Servidor:</b> coloque el nombre del servidor.</li>
 </ol>
+<img style="text-align:center" src="https://github.com/luisCartoGeo/PostGIS_Expression/blob/main/DIALOGO.jpg" style="width:10%">
+<h4><b>Expresiones</b></h4>
+Las expresiones PostGIS permiten hacer consultas alfanuméricas y espaciales, sin embargo, por el momento, el resultado que obtendrá serán valores numéricos o booleanos. Puede obtener como resultado un valor único de una consulta o una lista de valores.<br/>
+<ul>
+    <li><b>¿Cómo acceder a las expresiones?</b><br/>
+Para utilizar las expresiones, despliegue cualquier dialogo de expresiones, por ejemplo con la herramienta seleccionar por atributos o la calculadora de campos.</li><br/>
+    <li><b>¿Cómo utilizar las expresiones?</b><br/>
+    Al igual que las expresiones propias de QGIS, cada expresión PostGIS cuenta con una ayuda detallada que se muestra al seleccionarla en el Dialogo de Expresiones, incluyendo la sintaxis, parametros de entrada y ejemplos de uso.</li><br/>
+    </ul><img style="text-align:center" src="https://github.com/luisCartoGeo/PostGIS_Expression/blob/main/DIALOGO.jpg" style="width:10%">
+
 
 
 
