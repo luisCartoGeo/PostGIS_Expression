@@ -17,6 +17,7 @@
   - [Interfaz de usuario](#Interfaz-de-usuario)
   - [Establecer conexión con la base de datos](#Establecer-conexión-con-la-base-de-datos)
   - [Expresiones](#Expresiones)
+- [Colaborar o participar en el proyecto](#Colaborar-o-participar-en-el-proyecto)
 
 ### Introducción
 
@@ -80,6 +81,14 @@ Para utilizar las expresiones, despliegue cualquier dialogo de expresiones, por 
     <li><b>¿Cómo utilizar las expresiones?</b><br/>
     Al igual que las expresiones propias de QGIS, cada expresión PostGIS cuenta con una ayuda detallada que se muestra al seleccionarla en el Dialogo de Expresiones, incluyendo la sintaxis, parametros de entrada y ejemplos de uso.</li><br/>
     </ul><img style="text-align:center" src="https://github.com/luisCartoGeo/PostGIS_Expression/blob/main/ayuda.jpg" style="width:10%">
+    
+## Colaborar o participar en el proyecto
+El complemento PostGIS Expression puede incrementar el número de expresiones disponibles en cantidad y versatilidad, convertirse en una poderosa alternativa de análisis, automatización y visualización dentro de QGIS.<br/>
+Esto requiere el trabajar en el diseño, desarrollo, test y correcciones, tu participación puede ayudar a consolidar este proyecto.<br/>
+Puedes colaborar de muchas formas: con un aporte monetario, participando en el desarrollo, diseño, pruebas, difusión.<br/>
+
+En el siguiente enlace puedes llenar un formulario especificando como deseas colaborar o participar, te contactare a la brevedad posible:<br/>
+https://forms.gle/Gb4dxWr7yd8SoEX78
 
 
 
