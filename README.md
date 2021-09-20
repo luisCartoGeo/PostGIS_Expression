@@ -83,7 +83,7 @@ Para utilizar las expresiones, despliegue cualquier dialogo de expresiones, por 
     </ul><img style="text-align:center" src="https://github.com/luisCartoGeo/PostGIS_Expression/blob/main/ayuda.jpg" style="width:10%">
     
 ## Colaborar o participar en el proyecto
-El complemento PostGIS Expression puede incrementar el número de expresiones disponibles en cantidad y versatilidad, convertirse en una poderosa alternativa de análisis, automatización y visualización dentro de QGIS.<br/>
+El complemento <b>PostGIS Expression</b> puede incrementar el número de expresiones disponibles en cantidad y versatilidad, convertirse en una poderosa alternativa de análisis, automatización y visualización dentro de QGIS.<br/>
 Esto requiere el trabajar en el diseño, desarrollo, test y correcciones, tu participación puede ayudar a consolidar este proyecto.<br/>
 Puedes colaborar de muchas formas: con un aporte monetario, participando en el desarrollo, diseño, pruebas, difusión.<br/>
 
