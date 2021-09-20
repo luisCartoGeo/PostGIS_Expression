@@ -8,7 +8,12 @@
 </table>
 <img style="text-align:center" src="https://github.com/luisCartoGeo/PostGIS_Expression/blob/main/MINI-POSTGIS-EXPRESION.jpg" style="width:10%">
 <h2><b>Repositorio del código del complemento para agregar y activar Expresiones PostGIS en QGIS</b></h2><br>
-<h3>Introducción</h3>
+
+## Indice
+- [Introducción](#Introducción)
+- [Instalación](#Instalación)
+
+### Introducción
 
 El inicio y desarrollo de <B>QGIS</B> ha estado vinculado con una gran diversidad de tecnologías libres, especialmente <B>PostgreSQL</B>.<BR/><BR/>
 <B>PostgreSQL</B> es un sistema de base de datos relacional de código abierto, solida, con más de 30 años de desarrollo, su desempeño iguala y supera 
@@ -19,8 +24,9 @@ De manera similar QGIS es un cliente ideal y ampliamente utilizado para <i>Postg
 Sin embargo, los usuarios que implementan la solución <b>QGIS/PostGIS</b> manifiestan su interés en una mayor integración, desean contar con la potencia 
 del motor de PostGIS dentro de los procesos rutinarios de QGIS.<BR/><BR/>
 El complemento <B>PostGIS Expression</B> es una propuesta para lograr esa mayor integración, al brindar expresiones que se ejecutan e implementan el motor de <i>PostgreSQL-PostGIS</i>.
-<hr></hr>
-<h3>Instalación</h3>
+
+### Instalación
+
 <ul>
 <li><b>Procedimiento de instalación:</b> descarga el complemento de este repositorio, luego en QGIS procede a instalarlo utilizando la opción, menú <i>Complementos, 
  > Administrar e instalar complementos > Instalar a partir de ZIP</i>.<br/>
