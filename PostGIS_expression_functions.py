@@ -389,7 +389,7 @@ class postgisExpressLoad:
 #            self.translator = QTranslator()
 #            self.translator.load(locale_path)
 #            QCoreApplication.installTranslator(self.translator)
-        self.menu= tr(self,u'&PostGIS Expression')
+        
     
     # noinspection PyMethodMayBeStatic
 #    def tr(self, message):
@@ -415,6 +415,7 @@ class postgisExpressLoad:
         QgsExpression.registerFunction(num_buffer_intersects_pg)
         QgsExpression.registerFunction(expression_open_pg)
         
+        self.menu= tr(self,u'&PostGIS Expression')
         # Button and menu to connect to database
         icon_path=os.path.join(self.plugin_dir,"icons/icon.png")
         icon = QIcon(icon_path)
@@ -450,12 +451,12 @@ class postgisExpressLoad:
         QgsExpression.unregisterFunction('expression_open_pg')
 
         self.iface.removePluginMenu(
-                tr(self,u'&Postgis Expression'),
+                tr(self,u'&PostGIS Expression'),
                 self.action_conec)
-        self.iface.removeToolBarIcon(self.action_conec)
         self.iface.removePluginMenu(
-                tr(self,u'&Postgis Expression'),
+                tr(self,u'&PostGIS Expression'),
                 self.action_disconec)
+        self.iface.removeToolBarIcon(self.action_conec)
         self.iface.removeToolBarIcon(self.action_disconec)
     
     def dlg_disconnect(self):
